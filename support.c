@@ -1,4 +1,5 @@
 #include <time.h>
+#include <stdint.h>
 
 void millisleep(uint32_t ms) {
   struct timespec remaining, duration;
